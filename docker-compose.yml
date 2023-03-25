@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:15.2
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: kontrol
+      POSTGRES_PASSWORD: kontrolpwd
+      POSTGRES_DB: kontroldb
