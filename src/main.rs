@@ -28,3 +28,5 @@ async fn main() -> std::io::Result<()> {
     .run()
     .await
 }
+
+postgres://kontrol:kontrolpwd@localhost:5432/kontroldb
